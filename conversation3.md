@@ -12,17 +12,17 @@
 
   - Text:
 
-    ````
     ¡Por supuesto! Para reducir el espacio vertical entre estos elementos, vamos a modificar los valores de padding en el componente `main`. Actualmente tiene `py-12 md:py-24`, lo cual genera bastante espacio.
     Aquí está la modificación que necesitas hacer en el archivo `challenge\\components\\landing-page.jsx`:
 
-    ```javascript:challenge\\components\\landing-page.jsx
+    ```javascript
     // Encuentra esta línea:
     <main className="px-4 py-12 md:py-24 flex flex-col md:flex-row items-start justify-between">
 
     // Y reemplázala por:
     <main className="px-4 py-8 md:py-16 flex flex-col md:flex-row items-start justify-between">
-    ````
+
+    ```
 
     Este cambio:
 
@@ -32,10 +32,6 @@
     - Conserva todos los demás estilos y funcionalidades
 
     El resultado será una página con un espaciado más compacto y mejor aprovechamiento del espacio vertical.
-
-    ```
-
-    ```
 
 - **Human**:
 
@@ -48,10 +44,9 @@
 
   - Text:
 
-    ````
     ¡Excelente! Vamos a añadir la clase `font-bold` a los elementos del header y al botón "Aplicar" del main. Aquí están los cambios necesarios en el archivo `challenge\\components\\landing-page.jsx`:
 
-    ```javascript:challenge\\components\\landing-page.jsx
+    ```javascript
     // En el header, modificar los botones así:
     <button className="flex items-center text-gray-700 hover:text-gray-900 font-bold">
       Para estudiantes
@@ -81,10 +76,6 @@
     >
       Aplicar
     </Link>
-    ````
+    ```
 
     Estos cambios harán que todos los textos del header y el botón "Aplicar" del main se muestren en negrita, dándoles más presencia visual.
-
-    ```
-
-    ```
