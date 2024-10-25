@@ -16,7 +16,7 @@ export function LandingPage() {
       <header className="container mx-auto px-4 py-6 flex items-center justify-between">
         <Image
           src="/logo.jpeg?height=40&width=120"
-          alt="HENRY logo"
+          alt="Bootcamp Logo"
           width={120}
           height={40}
           className="w-auto h-10"
